@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultras Hoodies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ultras Hoodies</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Ultras Hoodies</h2>
+            <p>Your go-to place for stylish and edgy hoodies.</p>
+            <div class="featured-products">
+                <h3>Featured Products</h3>
+                <div class="product">
+                    <h4>Hoodie 1</h4>
+                    <img src="hoodie1.jpg" alt="Hoodie 1">
+                    <p>Price: $XX.XX</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <h4>Hoodie 2</h4>
+                    <img src="hoodie2.jpg" alt="Hoodie 2">
+                    <p>Price: $XX.XX</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <h4>Hoodie 3</h4>
+                    <img src="hoodie3.jpg" alt="Hoodie 3">
+                    <p>Price: $XX.XX</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <h4>Hoodie 1</h4>
+                    <img src="hoodie1.jpg" alt="Hoodie 1">
+                    <p>Detailed description of Hoodie 1.</p>
+                </div>
+                <div class="product">
+                    <h4>Hoodie 2</h4>
+                    <img src="hoodie2.jpg" alt="Hoodie 2">
+                    <p>Detailed description of Hoodie 2.</p>
+                </div>
+                <div class="product">
+                    <h4>Hoodie 3</h4>
+                    <img src="hoodie3.jpg" alt="Hoodie 3">
+                    <p>Detailed description of Hoodie 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Our Signature Skull Hoodie</h3>
+                <p>Introducing our latest design featuring a stylized skull...</p>
+                <img src="skull_design.jpg" alt="Skull Design">
+                <p>Share your thoughts in the comments below!</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 0621369911</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+               
